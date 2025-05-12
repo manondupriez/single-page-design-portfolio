@@ -17,4 +17,6 @@
 
 preview.jpg
 *.md
+css_lint_unknown_at_rules_error.png
+css_lint_unknown_at_rules_fix_error.png
 node_modules

@@ -25,6 +25,11 @@
     --color-medium-brown: #7A746E;
     --color-light-cream: #FFF7F0;
     --color-galactic-blue: #755CDE;
+    --color-summer-yellow: #F6A560;
+    --color-pink: #F39E9E;
+    --color-light-red: #EB7565;
+    --color-cyan: #61C4B7;
+    --color-dark-purple: #552049;
     --font-plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
   }
 }
@@ -183,8 +188,14 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-\[24px\] {
+    top: 24px;
+  }
   .top-\[106px\] {
     top: 106px;
+  }
+  .right-\[24px\] {
+    right: 24px;
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
@@ -198,6 +209,9 @@
   .flex {
     display: flex;
   }
+  .hidden {
+    display: none;
+  }
   .table {
     display: table;
   }
@@ -210,6 +224,15 @@
   .h-\[90px\] {
     height: 90px;
   }
+  .h-\[158px\] {
+    height: 158px;
+  }
+  .h-\[182px\] {
+    height: 182px;
+  }
+  .h-\[364px\] {
+    height: 364px;
+  }
   .w-72 {
     width: calc(var(--spacing) * 72);
   }
@@ -218,6 +241,9 @@
   }
   .w-\[48px\] {
     width: 48px;
+  }
+  .w-\[159px\] {
+    width: 159px;
   }
   .w-\[343px\] {
     width: 343px;
@@ -231,6 +257,9 @@
   .flex-col {
     flex-direction: column;
   }
+  .content-end {
+    align-content: flex-end;
+  }
   .items-center {
     align-items: center;
   }
@@ -240,8 +269,14 @@
   .justify-center {
     justify-content: center;
   }
+  .justify-end {
+    justify-content: flex-end;
+  }
   .justify-start {
     justify-content: flex-start;
+  }
+  .justify-items-end {
+    justify-items: end;
   }
   .gap-\[16px\] {
     gap: 16px;
@@ -249,14 +284,38 @@
   .overflow-hidden {
     overflow: hidden;
   }
+  .rounded-\[8px\] {
+    border-radius: 8px;
+  }
   .rounded-\[28px\] {
     border-radius: 28px;
   }
   .bg-black {
     background-color: var(--color-black);
   }
+  .bg-cyan {
+    background-color: var(--color-cyan);
+  }
+  .bg-dark-purple {
+    background-color: var(--color-dark-purple);
+  }
+  .bg-galactic-blue {
+    background-color: var(--color-galactic-blue);
+  }
   .bg-light-cream {
     background-color: var(--color-light-cream);
+  }
+  .bg-light-red {
+    background-color: var(--color-light-red);
+  }
+  .bg-pink {
+    background-color: var(--color-pink);
+  }
+  .bg-summer-yellow {
+    background-color: var(--color-summer-yellow);
+  }
+  .p-\[24px\] {
+    padding: 24px;
   }
   .px-\[16px\] {
     padding-inline: 16px;
@@ -282,6 +341,12 @@
   .text-center {
     text-align: center;
   }
+  .text-end {
+    text-align: end;
+  }
+  .align-bottom {
+    vertical-align: bottom;
+  }
   .font-\[\'Plus_Jakarta_Sans\'\] {
     font-family: 'Plus Jakarta Sans';
   }
@@ -299,6 +364,9 @@
   .text-\[14px\] {
     font-size: 14px;
   }
+  .text-\[24px\] {
+    font-size: 24px;
+  }
   .text-\[36px\] {
     font-size: 36px;
   }
@@ -313,6 +381,10 @@
   .leading-\[28px\] {
     --tw-leading: 28px;
     line-height: 28px;
+  }
+  .leading-\[30px\] {
+    --tw-leading: 30px;
+    line-height: 30px;
   }
   .leading-\[45px\] {
     --tw-leading: 45px;
@@ -333,6 +405,9 @@
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
+  }
+  .text-\[\#FFF\] {
+    color: #FFF;
   }
   .text-black {
     color: var(--color-black);
@@ -437,6 +512,16 @@
       width: 64px;
     }
   }
+  .md\:w-\[155px\] {
+    @media (width >= 768px) {
+      width: 155px;
+    }
+  }
+  .md\:w-\[333px\] {
+    @media (width >= 768px) {
+      width: 333px;
+    }
+  }
   .md\:w-\[690px\] {
     @media (width >= 768px) {
       width: 690px;
@@ -504,6 +589,21 @@
       line-height: 55px;
     }
   }
+  .xxl\:h-\[158px\] {
+    @media (width >= 1400px) {
+      height: 158px;
+    }
+  }
+  .xxl\:w-\[164px\] {
+    @media (width >= 1400px) {
+      width: 164px;
+    }
+  }
+  .xxl\:w-\[354px\] {
+    @media (width >= 1400px) {
+      width: 354px;
+    }
+  }
   .xxl\:w-\[751px\] {
     @media (width >= 1400px) {
       width: 751px;
@@ -532,6 +632,11 @@
   .xxl\:pt-\[66px\] {
     @media (width >= 1400px) {
       padding-top: 66px;
+    }
+  }
+  .xxl\:pt-\[80px\] {
+    @media (width >= 1400px) {
+      padding-top: 80px;
     }
   }
   .xxl\:text-\[56px\] {
