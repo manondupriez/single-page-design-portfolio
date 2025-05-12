@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+    --color-black: #030303;
+    --color-medium-brown: #7A746E;
+    --color-light-cream: #FFF7F0;
+    --color-galactic-blue: #755CDE;
+    --color-summer-yellow: #F6A560;
+    --color-pink: #F39E9E;
+    --color-light-red: #EB7565;
+    --color-cyan: #61C4B7;
+    --color-dark-purple: #552049;
+
+    --font-plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
+
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
+}
