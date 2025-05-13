@@ -232,6 +232,9 @@
   .mb-\[32px\] {
     margin-bottom: 32px;
   }
+  .contents {
+    display: contents;
+  }
   .flex {
     display: flex;
   }
