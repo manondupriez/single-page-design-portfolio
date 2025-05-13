@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/single-page-design-portfolio-with-tailwind-css-CoMufi67re](https://www.frontendmentor.io/solutions/single-page-design-portfolio-with-tailwind-css-CoMufi67re)
 - Live Site URL: [https://manondupriez.github.io/single-page-design-portfolio/](https://manondupriez.github.io/single-page-design-portfolio/)
 
 ## My process
